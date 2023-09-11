@@ -1,2 +1,4 @@
 .env
 smart_home_env/
+smart_home/__pycache__
+measurement/__pycache__

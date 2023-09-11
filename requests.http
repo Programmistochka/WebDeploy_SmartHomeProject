@@ -13,19 +13,19 @@ POST {{baseUrl}}/sensors/
 Content-Type: application/json
 
 {
-  "name": "ESP55",
-  "description": "Новый датчик"
+  "name": "ESP57",
+  "description": "датчик"
 }
 
 ###
 
 # обновление датчика +
-PATCH {{baseUrl}}/sensors/9/
+PATCH {{baseUrl}}/sensors/2/
 Content-Type: application/json
 
 {
   "name": "D9",
-  "description": "Датчик_9 обновленный"
+  "description": "Датчик_2 обновленный"
 }
 
 ###
@@ -35,14 +35,14 @@ POST {{baseUrl}}/measurements/
 Content-Type: application/json
 
 {
-  "sensor_id": 9,
+  "sensor_id": 2,
   "temperature": 24.3
 }
 
 ###
 
 # получение информации по датчику +
-GET {{baseUrl}}/sensors/10/
+GET {{baseUrl}}/sensors/2/
 Content-Type: application/json
 
 ###
